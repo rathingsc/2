@@ -1,3 +1,7 @@
+## v2.0.1 编译修复
+- 修复 GrammarDiagnosisFragment 中 MaterialButton 错误调用 setTextAllCaps(false) 导致 Javac 编译失败的问题。
+- 改为 Android 正确 API setAllCaps(false)。
+
 # 终学意语 v2.0
 
 v2.0 定位为“长期个人意大利语学习系统”，在 v1.9 的 FSRS、四维掌握、Shadowing、发音与阶段自测基础上新增四个长期使用模块：
