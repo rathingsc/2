@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bg" android:orientation="vertical">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🆘 救急意大利语" android:textColor="@color/text_primary" android:textSize="26sp" android:textStyle="bold" />
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="办事、看病、报警、交通等场合需要马上开口时使用。点整张卡可放大给对方看。" android:textColor="@color/text_secondary" android:textSize="13sp" />
+  <Spinner android:id="@+id/spinner_emergency_category" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="10dp" />
+  <EditText android:id="@+id/edit_emergency_search" android:layout_width="match_parent" android:layout_height="48dp" android:background="@drawable/bg_search" android:hint="搜索中文或意大利语" android:paddingHorizontal="14dp" android:singleLine="true" />
+  <TextView android:id="@+id/text_emergency_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:textColor="@color/text_secondary" android:textSize="12sp" />
+ </LinearLayout>
+ <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_emergency" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false" android:paddingBottom="16dp" />
+</LinearLayout>

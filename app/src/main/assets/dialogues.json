@@ -1,0 +1,432 @@
+[
+  {
+    "id": "bar_restaurant",
+    "title": "Bar 和餐厅",
+    "emoji": "☕",
+    "turns": [
+      {
+        "npc": "Buongiorno, cosa desidera?",
+        "npcZh": "早上好，您想要什么？",
+        "choices": [
+          "Vorrei un cappuccino e un cornetto, per favore.",
+          "Dov'è la stazione?",
+          "Ho bisogno di un medico."
+        ],
+        "correct": 0,
+        "reply": "Certo. Altro?",
+        "replyZh": "好的。还要别的吗？"
+      },
+      {
+        "npc": "Altro?",
+        "npcZh": "还要别的吗？",
+        "choices": [
+          "No, grazie. Quanto costa?",
+          "Sono di Milano.",
+          "Vorrei affittare una casa."
+        ],
+        "correct": 0,
+        "reply": "Sono quattro euro e cinquanta.",
+        "replyZh": "一共4.5欧元。"
+      },
+      {
+        "npc": "Sono quattro euro e cinquanta.",
+        "npcZh": "一共4.5欧元。",
+        "choices": [
+          "Posso pagare con la carta?",
+          "Che binario è?",
+          "Mi fa male la schiena."
+        ],
+        "correct": 0,
+        "reply": "Sì, certo.",
+        "replyZh": "可以，当然。"
+      }
+    ]
+  },
+  {
+    "id": "supermarket",
+    "title": "超市购物",
+    "emoji": "🛒",
+    "turns": [
+      {
+        "npc": "Posso aiutarla?",
+        "npcZh": "我可以帮您吗？",
+        "choices": [
+          "Sì, dove posso trovare il latte?",
+          "Vorrei un appuntamento.",
+          "A che ora parte il treno?"
+        ],
+        "correct": 0,
+        "reply": "È nel corridoio tre.",
+        "replyZh": "在3号通道。"
+      },
+      {
+        "npc": "È nel corridoio tre.",
+        "npcZh": "在3号通道。",
+        "choices": [
+          "Grazie. Quanto costa questa confezione?",
+          "Dove abita?",
+          "Può parlare più forte?"
+        ],
+        "correct": 0,
+        "reply": "Costa due euro e venti.",
+        "replyZh": "2.2欧元。"
+      },
+      {
+        "npc": "Vuole anche il sacchetto?",
+        "npcZh": "您还需要袋子吗？",
+        "choices": [
+          "Sì, uno piccolo, grazie.",
+          "No, sono in ritardo.",
+          "Ho la febbre."
+        ],
+        "correct": 0,
+        "reply": "Va bene.",
+        "replyZh": "好的。"
+      }
+    ]
+  },
+  {
+    "id": "transport",
+    "title": "公交和火车",
+    "emoji": "🚆",
+    "turns": [
+      {
+        "npc": "Buongiorno, dove deve andare?",
+        "npcZh": "您好，您要去哪里？",
+        "choices": [
+          "Devo andare a Milano Centrale.",
+          "Vorrei un caffè.",
+          "Mi serve una ricetta."
+        ],
+        "correct": 0,
+        "reply": "Può prendere il treno delle 8:10.",
+        "replyZh": "您可以坐8:10的火车。"
+      },
+      {
+        "npc": "Può prendere il treno delle 8:10.",
+        "npcZh": "您可以坐8:10的火车。",
+        "choices": [
+          "Da quale binario parte?",
+          "Quanto costa il pane?",
+          "Dove posso firmare?"
+        ],
+        "correct": 0,
+        "reply": "Parte dal binario quattro.",
+        "replyZh": "从4号站台出发。"
+      },
+      {
+        "npc": "Parte dal binario quattro.",
+        "npcZh": "从4号站台出发。",
+        "choices": [
+          "Grazie. Devo cambiare treno?",
+          "Ho bisogno di una taglia più grande.",
+          "Vorrei parlare con il medico."
+        ],
+        "correct": 0,
+        "reply": "No, è diretto.",
+        "replyZh": "不用，是直达车。"
+      }
+    ]
+  },
+  {
+    "id": "directions",
+    "title": "问路和城市",
+    "emoji": "🗺️",
+    "turns": [
+      {
+        "npc": "Mi dica, dove deve andare?",
+        "npcZh": "请说，您要去哪里？",
+        "choices": [
+          "Cerco la stazione, per favore.",
+          "Vorrei pagare con la carta.",
+          "Ho perso il passaporto."
+        ],
+        "correct": 0,
+        "reply": "Continui sempre dritto.",
+        "replyZh": "一直直走。"
+      },
+      {
+        "npc": "Continui sempre dritto.",
+        "npcZh": "一直直走。",
+        "choices": [
+          "È lontano da qui?",
+          "Quanto costa il caffè?",
+          "Posso provare questa giacca?"
+        ],
+        "correct": 0,
+        "reply": "No, sono circa dieci minuti a piedi.",
+        "replyZh": "不远，步行大约10分钟。"
+      },
+      {
+        "npc": "Sono circa dieci minuti a piedi.",
+        "npcZh": "步行大约10分钟。",
+        "choices": [
+          "Grazie mille per l'aiuto.",
+          "Vorrei una prescrizione.",
+          "Mi serve il codice fiscale."
+        ],
+        "correct": 0,
+        "reply": "Di niente.",
+        "replyZh": "不客气。"
+      }
+    ]
+  },
+  {
+    "id": "housing",
+    "title": "租房和住房",
+    "emoji": "🏠",
+    "turns": [
+      {
+        "npc": "Buongiorno, è interessato all'appartamento?",
+        "npcZh": "您好，您对这套公寓感兴趣吗？",
+        "choices": [
+          "Sì, vorrei sapere quanto costa l'affitto.",
+          "Vorrei un biglietto per Roma.",
+          "Mi fa male la testa."
+        ],
+        "correct": 0,
+        "reply": "Sono settecento euro al mese.",
+        "replyZh": "每月700欧元。"
+      },
+      {
+        "npc": "Sono settecento euro al mese.",
+        "npcZh": "每月700欧元。",
+        "choices": [
+          "Le spese sono incluse?",
+          "Dove si trova la farmacia?",
+          "Posso ordinare una pizza?"
+        ],
+        "correct": 0,
+        "reply": "No, le bollette sono a parte.",
+        "replyZh": "不包括，账单另算。"
+      },
+      {
+        "npc": "Le bollette sono a parte.",
+        "npcZh": "账单另算。",
+        "choices": [
+          "Posso vedere il contratto prima di decidere?",
+          "Qual è il binario?",
+          "Vorrei cambiare medico."
+        ],
+        "correct": 0,
+        "reply": "Certo, glielo mando oggi.",
+        "replyZh": "当然，我今天发给您。"
+      }
+    ]
+  },
+  {
+    "id": "bureaucracy",
+    "title": "Comune 和 Questura",
+    "emoji": "📄",
+    "turns": [
+      {
+        "npc": "Buongiorno, come posso aiutarla?",
+        "npcZh": "您好，我能怎么帮您？",
+        "choices": [
+          "Vorrei informazioni sul permesso di soggiorno.",
+          "Vorrei un cappuccino.",
+          "Cerco una taglia media."
+        ],
+        "correct": 0,
+        "reply": "Ha già un appuntamento?",
+        "replyZh": "您已经预约了吗？"
+      },
+      {
+        "npc": "Ha già un appuntamento?",
+        "npcZh": "您已经预约了吗？",
+        "choices": [
+          "Sì, ho un appuntamento alle dieci.",
+          "No, non mangio carne.",
+          "Sì, il treno è diretto."
+        ],
+        "correct": 0,
+        "reply": "Bene. Ha portato i documenti?",
+        "replyZh": "好的。您带文件了吗？"
+      },
+      {
+        "npc": "Ha portato i documenti?",
+        "npcZh": "您带文件了吗？",
+        "choices": [
+          "Sì. Serve l'originale o basta una copia?",
+          "Quanto costa questa camicia?",
+          "Mi può portare il conto?"
+        ],
+        "correct": 0,
+        "reply": "Serve anche l'originale.",
+        "replyZh": "还需要原件。"
+      }
+    ]
+  },
+  {
+    "id": "health",
+    "title": "医院和药店",
+    "emoji": "💊",
+    "turns": [
+      {
+        "npc": "Buongiorno, che problema ha?",
+        "npcZh": "您好，您有什么不舒服？",
+        "choices": [
+          "Ho la febbre e mal di gola.",
+          "Vorrei affittare una stanza.",
+          "Devo prendere il treno."
+        ],
+        "correct": 0,
+        "reply": "Da quanti giorni?",
+        "replyZh": "有几天了？"
+      },
+      {
+        "npc": "Da quanti giorni?",
+        "npcZh": "有几天了？",
+        "choices": [
+          "Da due giorni.",
+          "Sono due euro.",
+          "Alle due e dieci."
+        ],
+        "correct": 0,
+        "reply": "Ha anche la tosse?",
+        "replyZh": "您也咳嗽吗？"
+      },
+      {
+        "npc": "Ha anche la tosse?",
+        "npcZh": "您也咳嗽吗？",
+        "choices": [
+          "Sì, soprattutto la notte.",
+          "Sì, pago con la carta.",
+          "Sì, è al secondo piano."
+        ],
+        "correct": 0,
+        "reply": "Le consiglio di parlare con un medico.",
+        "replyZh": "建议您咨询医生。"
+      }
+    ]
+  },
+  {
+    "id": "bank",
+    "title": "银行和付款",
+    "emoji": "💳",
+    "turns": [
+      {
+        "npc": "Buongiorno, cosa deve fare?",
+        "npcZh": "您好，您要办理什么？",
+        "choices": [
+          "Vorrei fare un bonifico.",
+          "Vorrei ordinare il pranzo.",
+          "Cerco la fermata."
+        ],
+        "correct": 0,
+        "reply": "Ha con sé un documento?",
+        "replyZh": "您带证件了吗？"
+      },
+      {
+        "npc": "Ha con sé un documento?",
+        "npcZh": "您带证件了吗？",
+        "choices": [
+          "Sì, ho la carta d'identità.",
+          "Sì, ho mal di schiena.",
+          "Sì, ho fame."
+        ],
+        "correct": 0,
+        "reply": "Perfetto. Qual è l'importo?",
+        "replyZh": "好的。金额是多少？"
+      },
+      {
+        "npc": "Qual è l'importo?",
+        "npcZh": "金额是多少？",
+        "choices": [
+          "Duecento euro.",
+          "Due fermate.",
+          "Due persone."
+        ],
+        "correct": 0,
+        "reply": "Va bene, procediamo.",
+        "replyZh": "好的，我们继续办理。"
+      }
+    ]
+  },
+  {
+    "id": "phone_appointment",
+    "title": "电话和预约",
+    "emoji": "📞",
+    "turns": [
+      {
+        "npc": "Pronto, buongiorno.",
+        "npcZh": "喂，您好。",
+        "choices": [
+          "Buongiorno, vorrei prenotare un appuntamento.",
+          "Vorrei un chilo di mele.",
+          "Dov'è il bagno?"
+        ],
+        "correct": 0,
+        "reply": "Per quale giorno?",
+        "replyZh": "您想预约哪一天？"
+      },
+      {
+        "npc": "Per quale giorno?",
+        "npcZh": "您想预约哪一天？",
+        "choices": [
+          "Se possibile, martedì mattina.",
+          "Al binario cinque.",
+          "Una taglia grande."
+        ],
+        "correct": 0,
+        "reply": "Alle nove va bene?",
+        "replyZh": "九点可以吗？"
+      },
+      {
+        "npc": "Alle nove va bene?",
+        "npcZh": "九点可以吗？",
+        "choices": [
+          "Sì, va benissimo. Grazie.",
+          "No, non mangio pesce.",
+          "Sì, è molto caro."
+        ],
+        "correct": 0,
+        "reply": "Perfetto, a martedì.",
+        "replyZh": "好的，周二见。"
+      }
+    ]
+  },
+  {
+    "id": "work",
+    "title": "工作和面试",
+    "emoji": "💼",
+    "turns": [
+      {
+        "npc": "Mi parli un po' di lei.",
+        "npcZh": "请简单介绍一下自己。",
+        "choices": [
+          "Ho esperienza nel lavoro di squadra e imparo velocemente.",
+          "Vorrei un biglietto di sola andata.",
+          "Mi serve uno sciroppo."
+        ],
+        "correct": 0,
+        "reply": "Perché vuole lavorare con noi?",
+        "replyZh": "为什么想来我们这里工作？"
+      },
+      {
+        "npc": "Perché vuole lavorare con noi?",
+        "npcZh": "为什么想来我们这里工作？",
+        "choices": [
+          "Perché questo lavoro è adatto alla mia esperienza.",
+          "Perché il treno è in ritardo.",
+          "Perché vorrei un caffè."
+        ],
+        "correct": 0,
+        "reply": "Quando sarebbe disponibile?",
+        "replyZh": "您什么时候可以开始？"
+      },
+      {
+        "npc": "Quando sarebbe disponibile?",
+        "npcZh": "您什么时候可以开始？",
+        "choices": [
+          "Potrei iniziare dalla prossima settimana.",
+          "Costa circa dieci euro.",
+          "È vicino alla farmacia."
+        ],
+        "correct": 0,
+        "reply": "Grazie, la contatteremo presto.",
+        "replyZh": "谢谢，我们会尽快联系您。"
+      }
+    ]
+  }
+]

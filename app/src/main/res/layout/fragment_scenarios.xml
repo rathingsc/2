@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/bg" android:paddingTop="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingHorizontal="12dp">
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_scenario_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="44dp" android:text="← 练习" />
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="生活意大利语" android:gravity="center" android:textColor="@color/text_primary" android:textSize="23sp" android:textStyle="bold" />
+        <Space android:layout_width="70dp" android:layout_height="1dp" />
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="18dp" android:paddingTop="4dp" android:paddingBottom="8dp" android:text="按你在意大利真正会遇到的场景练核心句。" android:textColor="@color/text_secondary" android:textSize="13sp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_scenarios" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false" android:paddingBottom="18dp" />
+</LinearLayout>

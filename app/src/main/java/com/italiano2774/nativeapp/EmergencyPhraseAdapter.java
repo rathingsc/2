@@ -1,0 +1,7 @@
+package com.italiano2774.nativeapp;
+import android.view.*;import android.widget.*;import androidx.annotation.NonNull;import androidx.recyclerview.widget.RecyclerView;import java.util.*;
+public class EmergencyPhraseAdapter extends RecyclerView.Adapter<EmergencyPhraseAdapter.H>{
+ public interface Actions{void speak(EmergencyPhrase p);void save(EmergencyPhrase p);void show(EmergencyPhrase p);}private final Actions a;private final List<EmergencyPhrase> items=new ArrayList<>();public EmergencyPhraseAdapter(Actions x){a=x;}public void submit(List<EmergencyPhrase> d){items.clear();items.addAll(d);notifyDataSetChanged();}
+ @NonNull public H onCreateViewHolder(@NonNull ViewGroup p,int v){return new H(LayoutInflater.from(p.getContext()).inflate(R.layout.item_emergency_phrase,p,false));}public void onBindViewHolder(@NonNull H h,int pos){EmergencyPhrase p=items.get(pos);h.cat.setText(p.category);h.it.setText(p.it);h.zh.setText(p.zh);h.speak.setOnClickListener(v->a.speak(p));h.save.setOnClickListener(v->a.save(p));h.itemView.setOnClickListener(v->a.show(p));}public int getItemCount(){return items.size();}
+ static class H extends RecyclerView.ViewHolder{TextView cat,it,zh;View speak,save;H(View v){super(v);cat=v.findViewById(R.id.text_emergency_category);it=v.findViewById(R.id.text_emergency_it);zh=v.findViewById(R.id.text_emergency_zh);speak=v.findViewById(R.id.button_emergency_speak);save=v.findViewById(R.id.button_emergency_save);}}
+}

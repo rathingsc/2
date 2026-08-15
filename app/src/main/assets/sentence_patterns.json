@@ -1,0 +1,548 @@
+[
+  {
+    "id": "vorrei",
+    "title": "Vorrei + 名词 / 动词",
+    "formula": "Vorrei + 名词 / Vorrei + infinito",
+    "explanation": "礼貌表达“我想要 / 我想……”，比 voglio 更适合餐厅、商店、办事窗口。",
+    "exercises": [
+      {
+        "prompt": "___ un caffè, per favore.",
+        "answer": "Vorrei",
+        "it": "Vorrei un caffè, per favore.",
+        "zh": "我想要一杯咖啡，谢谢。"
+      },
+      {
+        "prompt": "Vorrei ___ un appuntamento.",
+        "answer": "prenotare",
+        "it": "Vorrei prenotare un appuntamento.",
+        "zh": "我想预约。"
+      },
+      {
+        "prompt": "___ parlare con il responsabile.",
+        "answer": "Vorrei",
+        "it": "Vorrei parlare con il responsabile.",
+        "zh": "我想和负责人谈一下。"
+      }
+    ]
+  },
+  {
+    "id": "bisogno",
+    "title": "Avere bisogno di",
+    "formula": "avere bisogno di + 名词 / 动词原形",
+    "explanation": "表示“需要……”。人称变化在 avere 上。",
+    "exercises": [
+      {
+        "prompt": "Ho bisogno ___ aiuto.",
+        "answer": "di",
+        "it": "Ho bisogno di aiuto.",
+        "zh": "我需要帮助。"
+      },
+      {
+        "prompt": "Hai bisogno ___ un documento?",
+        "answer": "di",
+        "it": "Hai bisogno di un documento?",
+        "zh": "你需要一份文件吗？"
+      },
+      {
+        "prompt": "Abbiamo bisogno di ___ più italiano.",
+        "answer": "parlare",
+        "it": "Abbiamo bisogno di parlare più italiano.",
+        "zh": "我们需要多说意大利语。"
+      }
+    ]
+  },
+  {
+    "id": "potere",
+    "title": "Potere + 动词原形",
+    "formula": "potere + infinito",
+    "explanation": "表示“能够 / 可以”。问句里非常常用。",
+    "exercises": [
+      {
+        "prompt": "___ pagare con la carta?",
+        "answer": "Posso",
+        "it": "Posso pagare con la carta?",
+        "zh": "我可以刷卡吗？"
+      },
+      {
+        "prompt": "Può ___ più lentamente?",
+        "answer": "parlare",
+        "it": "Può parlare più lentamente?",
+        "zh": "您可以说慢一点吗？"
+      },
+      {
+        "prompt": "Possiamo ___ qui?",
+        "answer": "aspettare",
+        "it": "Possiamo aspettare qui?",
+        "zh": "我们可以在这里等吗？"
+      }
+    ]
+  },
+  {
+    "id": "dovere",
+    "title": "Dovere + 动词原形",
+    "formula": "dovere + infinito",
+    "explanation": "表示“必须 / 需要做……”。",
+    "exercises": [
+      {
+        "prompt": "___ portare il passaporto.",
+        "answer": "Devo",
+        "it": "Devo portare il passaporto.",
+        "zh": "我必须带护照。"
+      },
+      {
+        "prompt": "Dobbiamo ___ il modulo.",
+        "answer": "compilare",
+        "it": "Dobbiamo compilare il modulo.",
+        "zh": "我们必须填写表格。"
+      },
+      {
+        "prompt": "Devi ___ alla stazione alle otto.",
+        "answer": "arrivare",
+        "it": "Devi arrivare alla stazione alle otto.",
+        "zh": "你必须八点到车站。"
+      }
+    ]
+  },
+  {
+    "id": "c_e",
+    "title": "C'è / Ci sono",
+    "formula": "C'è + 单数；Ci sono + 复数",
+    "explanation": "表示“有…… / 存在……”。",
+    "exercises": [
+      {
+        "prompt": "___ una farmacia qui vicino?",
+        "answer": "C'è",
+        "it": "C'è una farmacia qui vicino?",
+        "zh": "附近有药店吗？"
+      },
+      {
+        "prompt": "___ due fermate prima della stazione.",
+        "answer": "Ci sono",
+        "it": "Ci sono due fermate prima della stazione.",
+        "zh": "到车站前还有两站。"
+      },
+      {
+        "prompt": "Non ___ nessun problema.",
+        "answer": "c'è",
+        "it": "Non c'è nessun problema.",
+        "zh": "没有任何问题。"
+      }
+    ]
+  },
+  {
+    "id": "stare_gerundio",
+    "title": "Stare + gerundio",
+    "formula": "stare + gerundio",
+    "explanation": "表示“正在做……”。",
+    "exercises": [
+      {
+        "prompt": "Sto ___ italiano.",
+        "answer": "studiando",
+        "it": "Sto studiando italiano.",
+        "zh": "我正在学习意大利语。"
+      },
+      {
+        "prompt": "Che cosa stai ___?",
+        "answer": "facendo",
+        "it": "Che cosa stai facendo?",
+        "zh": "你正在做什么？"
+      },
+      {
+        "prompt": "Stiamo ___ il treno.",
+        "answer": "aspettando",
+        "it": "Stiamo aspettando il treno.",
+        "zh": "我们正在等火车。"
+      }
+    ]
+  },
+  {
+    "id": "piacere",
+    "title": "Mi piace / Mi piacciono",
+    "formula": "Mi piace + 单数/动词；Mi piacciono + 复数",
+    "explanation": "表达喜好时，动词与“被喜欢的东西”一致。",
+    "exercises": [
+      {
+        "prompt": "Mi ___ il caffè.",
+        "answer": "piace",
+        "it": "Mi piace il caffè.",
+        "zh": "我喜欢咖啡。"
+      },
+      {
+        "prompt": "Mi ___ le città italiane.",
+        "answer": "piacciono",
+        "it": "Mi piacciono le città italiane.",
+        "zh": "我喜欢意大利的城市。"
+      },
+      {
+        "prompt": "Ti piace ___ in treno?",
+        "answer": "viaggiare",
+        "it": "Ti piace viaggiare in treno?",
+        "zh": "你喜欢坐火车旅行吗？"
+      }
+    ]
+  },
+  {
+    "id": "da_quanto",
+    "title": "Da quanto tempo... ?",
+    "formula": "Da quanto tempo + presente? / Da + 时间 + presente",
+    "explanation": "询问或表达“做某事多久了”。",
+    "exercises": [
+      {
+        "prompt": "___ quanto tempo vivi in Italia?",
+        "answer": "Da",
+        "it": "Da quanto tempo vivi in Italia?",
+        "zh": "你在意大利住多久了？"
+      },
+      {
+        "prompt": "Vivo qui ___ due anni.",
+        "answer": "da",
+        "it": "Vivo qui da due anni.",
+        "zh": "我在这里住两年了。"
+      },
+      {
+        "prompt": "Studio italiano da ___ mesi.",
+        "answer": "tre",
+        "it": "Studio italiano da tre mesi.",
+        "zh": "我学习意大利语三个月了。"
+      }
+    ]
+  },
+  {
+    "id": "prima_dopo",
+    "title": "Prima di / Dopo aver",
+    "formula": "prima di + infinito；dopo aver + participio",
+    "explanation": "表达“做……之前 / 做……之后”。",
+    "exercises": [
+      {
+        "prompt": "Prima di ___, controllo l'orario.",
+        "answer": "partire",
+        "it": "Prima di partire, controllo l'orario.",
+        "zh": "出发前我会确认时间。"
+      },
+      {
+        "prompt": "Dopo aver ___, sono uscito.",
+        "answer": "mangiato",
+        "it": "Dopo aver mangiato, sono uscito.",
+        "zh": "吃完饭后我出门了。"
+      },
+      {
+        "prompt": "Prima di ___, legga bene il contratto.",
+        "answer": "firmare",
+        "it": "Prima di firmare, legga bene il contratto.",
+        "zh": "签字前请仔细阅读合同。"
+      }
+    ]
+  },
+  {
+    "id": "se_presente",
+    "title": "Se + 现在时",
+    "formula": "Se + presente, presente/futuro",
+    "explanation": "表达真实、可能发生的条件。",
+    "exercises": [
+      {
+        "prompt": "Se hai tempo, ___ .",
+        "answer": "chiamami",
+        "it": "Se hai tempo, chiamami.",
+        "zh": "如果你有时间，给我打电话。"
+      },
+      {
+        "prompt": "Se piove, ___ l'ombrello.",
+        "answer": "prendo",
+        "it": "Se piove, prendo l'ombrello.",
+        "zh": "如果下雨，我就带伞。"
+      },
+      {
+        "prompt": "Se non capisco, ___ di ripetere.",
+        "answer": "chiedo",
+        "it": "Se non capisco, chiedo di ripetere.",
+        "zh": "如果我没听懂，我会请对方重复。"
+      }
+    ]
+  },
+  {
+    "id": "perche",
+    "title": "Perché / Per + 动词",
+    "formula": "perché + 句子；per + infinito",
+    "explanation": "perché 说明原因；per + 动词原形常表示目的。",
+    "exercises": [
+      {
+        "prompt": "Studio italiano ___ vivo in Italia.",
+        "answer": "perché",
+        "it": "Studio italiano perché vivo in Italia.",
+        "zh": "我学习意大利语，因为我住在意大利。"
+      },
+      {
+        "prompt": "Vado in banca ___ fare un bonifico.",
+        "answer": "per",
+        "it": "Vado in banca per fare un bonifico.",
+        "zh": "我去银行是为了转账。"
+      },
+      {
+        "prompt": "Non vengo ___ devo lavorare.",
+        "answer": "perché",
+        "it": "Non vengo perché devo lavorare.",
+        "zh": "我不来，因为我得工作。"
+      }
+    ]
+  },
+  {
+    "id": "quanto_costa",
+    "title": "Quanto costa / Quanto costano",
+    "formula": "Quanto costa + 单数；Quanto costano + 复数",
+    "explanation": "购物询价最常用句型。",
+    "exercises": [
+      {
+        "prompt": "Quanto ___ questo?",
+        "answer": "costa",
+        "it": "Quanto costa questo?",
+        "zh": "这个多少钱？"
+      },
+      {
+        "prompt": "Quanto ___ queste scarpe?",
+        "answer": "costano",
+        "it": "Quanto costano queste scarpe?",
+        "zh": "这双鞋多少钱？"
+      },
+      {
+        "prompt": "___ costa il biglietto per Milano?",
+        "answer": "Quanto",
+        "it": "Quanto costa il biglietto per Milano?",
+        "zh": "去米兰的票多少钱？"
+      }
+    ]
+  },
+  {
+    "id": "dove_posso",
+    "title": "Dove posso + 动词",
+    "formula": "Dove posso + infinito?",
+    "explanation": "问“我在哪里可以做某事”。",
+    "exercises": [
+      {
+        "prompt": "Dove posso ___ il biglietto?",
+        "answer": "comprare",
+        "it": "Dove posso comprare il biglietto?",
+        "zh": "我在哪里可以买票？"
+      },
+      {
+        "prompt": "Dove posso ___ questo modulo?",
+        "answer": "consegnare",
+        "it": "Dove posso consegnare questo modulo?",
+        "zh": "我在哪里可以提交这张表？"
+      },
+      {
+        "prompt": "Dove posso ___ un taxi?",
+        "answer": "prendere",
+        "it": "Dove posso prendere un taxi?",
+        "zh": "我在哪里可以坐出租车？"
+      }
+    ]
+  },
+  {
+    "id": "mi_serve",
+    "title": "Mi serve / Mi servono",
+    "formula": "Mi serve + 单数；Mi servono + 复数",
+    "explanation": "表示“我需要某物”，非常适合办事和购物。",
+    "exercises": [
+      {
+        "prompt": "Mi ___ una copia del documento.",
+        "answer": "serve",
+        "it": "Mi serve una copia del documento.",
+        "zh": "我需要一份文件复印件。"
+      },
+      {
+        "prompt": "Mi ___ due foto.",
+        "answer": "servono",
+        "it": "Mi servono due foto.",
+        "zh": "我需要两张照片。"
+      },
+      {
+        "prompt": "Le ___ altro?",
+        "answer": "serve",
+        "it": "Le serve altro?",
+        "zh": "您还需要别的吗？"
+      }
+    ]
+  },
+  {
+    "id": "passato_prossimo",
+    "title": "Passato prossimo",
+    "formula": "avere/essere + participio passato",
+    "explanation": "日常讲“已经做过 / 发生过”最常用的过去时。",
+    "exercises": [
+      {
+        "prompt": "Ho già ___ .",
+        "answer": "pagato",
+        "it": "Ho già pagato.",
+        "zh": "我已经付过钱了。"
+      },
+      {
+        "prompt": "Sono ___ ieri.",
+        "answer": "arrivato",
+        "it": "Sono arrivato ieri.",
+        "zh": "我昨天到的。"
+      },
+      {
+        "prompt": "Hai ___ il documento?",
+        "answer": "portato",
+        "it": "Hai portato il documento?",
+        "zh": "你带文件了吗？"
+      }
+    ]
+  },
+  {
+    "id": "imperfetto",
+    "title": "Imperfetto 描述过去",
+    "formula": "imperfetto + 过去背景/习惯",
+    "explanation": "描述过去经常做的事、状态和背景。",
+    "exercises": [
+      {
+        "prompt": "Da bambino ___ a calcio ogni giorno.",
+        "answer": "giocavo",
+        "it": "Da bambino giocavo a calcio ogni giorno.",
+        "zh": "小时候我每天踢足球。"
+      },
+      {
+        "prompt": "Quando vivevo a Roma, ___ il bus.",
+        "answer": "prendevo",
+        "it": "Quando vivevo a Roma, prendevo il bus.",
+        "zh": "我住在罗马时常坐公交。"
+      },
+      {
+        "prompt": "Ieri alle otto ___ ancora.",
+        "answer": "lavoravo",
+        "it": "Ieri alle otto lavoravo ancora.",
+        "zh": "昨天八点我还在工作。"
+      }
+    ]
+  },
+  {
+    "id": "comparativo",
+    "title": "比较级 più / meno ... di",
+    "formula": "più/meno + 形容词 + di",
+    "explanation": "表达“比……更 / 更不……”。",
+    "exercises": [
+      {
+        "prompt": "Milano è ___ grande di Pavia.",
+        "answer": "più",
+        "it": "Milano è più grande di Pavia.",
+        "zh": "米兰比帕维亚大。"
+      },
+      {
+        "prompt": "Questo treno è meno ___ dell'altro.",
+        "answer": "veloce",
+        "it": "Questo treno è meno veloce dell'altro.",
+        "zh": "这趟火车没有另一趟快。"
+      },
+      {
+        "prompt": "Oggi sto ___ di ieri.",
+        "answer": "meglio",
+        "it": "Oggi sto meglio di ieri.",
+        "zh": "我今天比昨天感觉好。"
+      }
+    ]
+  },
+  {
+    "id": "ce_l_ho",
+    "title": "Ce l'ho / Non ce l'ho",
+    "formula": "ce + lo/la/li/le + avere",
+    "explanation": "口语中表达“我有它 / 我没有它”。",
+    "exercises": [
+      {
+        "prompt": "Hai il passaporto? Sì, ___ .",
+        "answer": "ce l'ho",
+        "it": "Hai il passaporto? Sì, ce l'ho.",
+        "zh": "你有护照吗？有，我带着。"
+      },
+      {
+        "prompt": "Hai una penna? No, non ___ .",
+        "answer": "ce l'ho",
+        "it": "Hai una penna? No, non ce l'ho.",
+        "zh": "你有笔吗？没有。"
+      },
+      {
+        "prompt": "I documenti? Sì, ___ tutti.",
+        "answer": "ce li ho",
+        "it": "I documenti? Sì, ce li ho tutti.",
+        "zh": "文件呢？有，我全带了。"
+      }
+    ]
+  },
+  {
+    "id": "ci_vuole",
+    "title": "Ci vuole / Ci vogliono",
+    "formula": "Ci vuole + 单数；Ci vogliono + 复数/时间",
+    "explanation": "表示“需要……（时间/东西）”。",
+    "exercises": [
+      {
+        "prompt": "Quanto tempo ___ per arrivare?",
+        "answer": "ci vuole",
+        "it": "Quanto tempo ci vuole per arrivare?",
+        "zh": "到那里需要多长时间？"
+      },
+      {
+        "prompt": "___ due documenti.",
+        "answer": "Ci vogliono",
+        "it": "Ci vogliono due documenti.",
+        "zh": "需要两份文件。"
+      },
+      {
+        "prompt": "Ci vuole ___ un'ora.",
+        "answer": "circa",
+        "it": "Ci vuole circa un'ora.",
+        "zh": "大约需要一个小时。"
+      }
+    ]
+  },
+  {
+    "id": "vorrei_sapere",
+    "title": "Vorrei sapere se...",
+    "formula": "Vorrei sapere se + 句子",
+    "explanation": "办事、电话、咨询时非常礼貌的问法。",
+    "exercises": [
+      {
+        "prompt": "Vorrei sapere ___ il documento è pronto.",
+        "answer": "se",
+        "it": "Vorrei sapere se il documento è pronto.",
+        "zh": "我想知道文件是否准备好了。"
+      },
+      {
+        "prompt": "Vorrei sapere se ___ aperti domani.",
+        "answer": "siete",
+        "it": "Vorrei sapere se siete aperti domani.",
+        "zh": "我想知道你们明天是否营业。"
+      },
+      {
+        "prompt": "Vorrei sapere ___ posso cambiare l'appuntamento.",
+        "answer": "se",
+        "it": "Vorrei sapere se posso cambiare l'appuntamento.",
+        "zh": "我想知道是否可以更改预约。"
+      }
+    ]
+  },
+  {
+    "id": "non_ho_capito",
+    "title": "Non ho capito / Può ripetere?",
+    "formula": "Non ho capito + 请求重复",
+    "explanation": "真实交流中最重要的“保命句型”，没听懂时马上用。",
+    "exercises": [
+      {
+        "prompt": "Mi scusi, non ho ___ .",
+        "answer": "capito",
+        "it": "Mi scusi, non ho capito.",
+        "zh": "不好意思，我没听懂。"
+      },
+      {
+        "prompt": "Può ___, per favore?",
+        "answer": "ripetere",
+        "it": "Può ripetere, per favore?",
+        "zh": "您可以重复一遍吗？"
+      },
+      {
+        "prompt": "Può parlare più ___?",
+        "answer": "lentamente",
+        "it": "Può parlare più lentamente?",
+        "zh": "您可以说慢一点吗？"
+      }
+    ]
+  }
+]

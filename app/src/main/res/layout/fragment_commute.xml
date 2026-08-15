@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_commute_back" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="44dp" android:text="← 练习" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:text="通勤听力" android:textColor="@color/text_primary" android:textSize="24sp" android:textStyle="bold" />
+            <Space android:layout_width="70dp" android:layout_height="1dp" />
+        </LinearLayout>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="可以锁屏继续播放：意大利语 → 中文 → 意大利语 → 例句。" android:textColor="@color/text_secondary" android:textSize="13sp" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="播放内容" android:textColor="@color/text_primary" android:textStyle="bold" />
+                <Spinner android:id="@+id/spinner_commute_source" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="8dp" android:background="@drawable/bg_search" android:paddingHorizontal="12dp" />
+                <CheckBox android:id="@+id/check_commute_chinese" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:checked="true" android:text="播放中文释义" />
+                <CheckBox android:id="@+id/check_commute_example" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="播放意大利语例句" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" app:cardBackgroundColor="@color/surface" app:cardCornerRadius="20dp" app:cardElevation="0dp" app:strokeColor="@color/line" app:strokeWidth="1dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center" android:padding="22dp">
+                <TextView android:id="@+id/text_commute_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" android:text="尚未开始" android:textColor="@color/text_secondary" android:textSize="13sp" />
+                <TextView android:id="@+id/text_commute_word" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:gravity="center" android:text="—" android:textColor="@color/text_primary" android:textSize="30sp" android:textStyle="bold" />
+                <TextView android:id="@+id/text_commute_meaning" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:gravity="center" android:textColor="@color/text_secondary" android:textSize="16sp" />
+                <ProgressBar android:id="@+id/progress_commute" style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:layout_marginTop="16dp" android:max="100" android:progressTint="@color/green" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_commute_start" android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginTop="14dp" android:text="▶ 开始通勤播放" android:textSize="16sp" android:textStyle="bold" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_commute_pause" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1" android:text="⏸ 暂停/继续" />
+            <com.google.android.material.button.MaterialButton android:id="@+id/button_commute_next" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="0dp" android:layout_height="50dp" android:layout_marginStart="8dp" android:layout_weight="1" android:text="下一条 ⏭" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:id="@+id/button_commute_stop" style="@style/Widget.MaterialComponents.Button.OutlinedButton" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="8dp" android:text="停止播放" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="提示：通勤模式使用系统 TTS。首次使用时，如果系统缺少意大利语或中文语音包，Android 可能会提示下载语音。" android:textColor="@color/text_secondary" android:textSize="12sp" />
+    </LinearLayout>
+</ScrollView>
